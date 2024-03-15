@@ -13,6 +13,10 @@ jobs:
       
       - name: comamnd line
         run: ls -la
+      - name: Navigate into app folder
+        run: cd hello-world
+      - name: comamnd line2
+        run: ls -la
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
